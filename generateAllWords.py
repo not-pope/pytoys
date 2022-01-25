@@ -13,7 +13,7 @@ length = 6 # just for testing as well
 for i in range(length):
     print(str(i)+':[ ', end='') # just to look nice 
     for word in generateAllWords(i):
-        if (word!=''): # so the is no [ , ] for strings of len==0
+        if (word!=''): # so there is no [ , ] for strings of len==0
             print(word,end=', ')
     print(']')
     
